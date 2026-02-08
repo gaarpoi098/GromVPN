@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(express.static("./")); // чтобы сайт открывался
 
-const TOKEN = "ВСТАВЬ_СЮДА_ТОКЕН"; // ← вставь свой токен
+const TOKEN = "527278:AAhWU2RQb14ITFbS14JZqBPpLomZYTVDfr3"; // ← вставь свой токен
 
 
 app.post("/create-invoice", async (req, res) => {
